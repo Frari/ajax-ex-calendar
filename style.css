@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+.container__calendar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#month__year{
+  padding:20px;
+  margin-top:50px;
+}
+#container__icon{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+}
+.fa-chevron-circle-left,
+.fa-chevron-circle-right{
+  padding:10px;
+  cursor: pointer;
+}
+#day{
+  list-style-type: none;
+  padding:5px 0px;
+}
